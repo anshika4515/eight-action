@@ -1,6 +1,6 @@
-const core = require('@actions/core')
+import core from '@actions/core'
 
-async function run(){
+async function run() {
    core.notice('Hello from custom js msg')
 }
 
